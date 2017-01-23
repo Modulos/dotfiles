@@ -2,7 +2,9 @@
 
 echo "Symlink dotfiles"
 
-ln -s ./vimrc ~/.vimrc
-ln -s ./tmux.conf ~/.tmux.conf
+pwd=$(pwd)
+
+ln -s ${pwd}/vimrc ~/.vimrc
+ln -s ${pwd}/tmux.conf ~/.tmux.conf
 
 echo "Done"
