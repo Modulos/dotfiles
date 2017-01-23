@@ -1,2 +1,4 @@
 set ts=4
-set syntax=on
+
+filetype plugin indent on
+syntax on
