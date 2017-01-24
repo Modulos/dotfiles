@@ -10,5 +10,6 @@ ln -s ${pwd}/tmux.conf ~/.tmux.conf
 echo "Add bashrc to ~/.profile"
 echo "source $HOME/.bashrc" >> ~/.profile
 ln -s ${pwd}/bashrc ~/.bashrc 
+echo "source ~/.profile inorder to use your new bash commands" 
 
 echo "Done"
