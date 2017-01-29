@@ -12,3 +12,4 @@ zstyle :compinstall filename '/Users/albert/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+source ~/.profile
