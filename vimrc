@@ -6,5 +6,6 @@ set tw=80
 set number
 
 filetype plugin indent on
+au BufNewFile,BufRead *.rs set filetype=rust
 syntax on
 
