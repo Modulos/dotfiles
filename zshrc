@@ -9,4 +9,5 @@ bindkey -v
 
 autoload -Uz compinit
 compinit
+export EDITOR=vim
 source ~/.profile
