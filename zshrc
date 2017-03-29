@@ -9,5 +9,8 @@ bindkey -v
 
 autoload -Uz compinit
 compinit
+
 export EDITOR=vim
+# Autostart tmux
+[[ "$TERM" != "screen" ]] && exec tmux
 source ~/.profile
