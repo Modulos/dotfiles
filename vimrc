@@ -16,6 +16,11 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+au BufNewFile,BufRead *.c set tabstop=2 
+au BufNewFile,BufRead *.c set softtabstop=2 
+au BufNewFile,BufRead *.c set shiftwidth=2 
+
+
 au BufNewFile,BufRead *.jsx set tabstop=2 
 au BufNewFile,BufRead *.jsx set softtabstop=2 
 au BufNewFile,BufRead *.jsx set shiftwidth=2 
